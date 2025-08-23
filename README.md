@@ -1,4 +1,4 @@
-# Three-Tier Application Deployment on Ubuntu & Amazon Linux 2023
+<img width="981" height="499" alt="image" src="https://github.com/user-attachments/assets/696234ea-41e8-4931-bd36-fc09f919df4b" /># Three-Tier Application Deployment on Ubuntu & Amazon Linux 2023
 
 A **three-tier architecture** separates the application into:  
 
@@ -21,7 +21,7 @@ The frontend is built with **Node.js + React** and served via **Apache2 (Ubuntu)
 - PM2 is used for running Node.js applications in production.  
 - Corepack manages package managers like Yarn.  
 
-*For step-by-step commands, refer to the [Medium blog](#).*
+*For step-by-step commands, refer to the [Medium blog](https://gou8m.medium.com/deploying-a-three-tier-application-on-ubuntu-amazon-linux-2023-cd3bc17ab54e).*
 
 ---
 
@@ -33,7 +33,7 @@ The backend is a **Node.js API server**, managed using **PM2**, without requirin
 - PM2 ensures the backend runs continuously and restarts automatically on reboot.  
 - Backend communicates with both frontend and database via APIs.  
 
-*Commands and setup instructions are detailed in the [Medium blog](#).*
+*Commands and setup instructions are detailed in the [Medium blog](https://gou8m.medium.com/deploying-a-three-tier-application-on-ubuntu-amazon-linux-2023-cd3bc17ab54e).*
 
 ---
 
@@ -45,7 +45,7 @@ The application uses **AWS RDS MySQL**.
 - Install the MySQL client appropriate for your OS (Ubuntu: apt, Amazon Linux: dnf/yum).  
 - Connect to the RDS instance using the endpoint, username, and password.  
 
-*Detailed instructions available in the [Medium blog](#).*
+*Detailed instructions available in the [Medium blog](https://gou8m.medium.com/deploying-a-three-tier-application-on-ubuntu-amazon-linux-2023-cd3bc17ab54e).*
 
 ---
 
@@ -56,4 +56,4 @@ The application uses **AWS RDS MySQL**.
 - **Database:** AWS RDS MySQL accessed via MySQL client.  
 - This setup ensures separation of concerns, scalability, and maintainability.  
 
-*Full deployment guide and commands are on [Medium](#).*
+*Full deployment guide and commands are on [Medium](https://gou8m.medium.com/deploying-a-three-tier-application-on-ubuntu-amazon-linux-2023-cd3bc17ab54e).*
